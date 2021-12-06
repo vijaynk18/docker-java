@@ -8,17 +8,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @SpringBootApplication
 @Controller
-public class StartApplication {
-
-    @GetMapping("/")
+public class CollectionApplication {
+/*
+    @GetMapping("/hello")
     public String index(final Model model) {
         model.addAttribute("title", "Docker + Spring Boot");
         model.addAttribute("msg", "Welcome to the docker container!");
         return "index";
-    }
+    }*/
 
     public static void main(String[] args) {
-        SpringApplication.run(StartApplication.class, args);
+        SpringApplication.run(CollectionApplication.class, args);
     }
 
 }
